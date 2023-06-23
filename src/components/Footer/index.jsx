@@ -55,7 +55,7 @@ const Footer = (props) => {
                 Subscribe Now
               </Button>
             </div>
-            <ul className="flex sm:flex-col flex-row sm:gap-5 items-center justify-center mt-[35px] w-[46%] md:w-full common-column-list">
+            <ul className="flex sm:flex-col flex-row sm:gap-5 items-center justify-center mt-[35px] w-[46%] md:w-full common-column-list sm:ml-[130px]">
               <li>
                 <a href="/">
                 <Text
@@ -148,7 +148,7 @@ const Footer = (props) => {
                   />
                 </div>
                 <Text
-                  className="md:ml-[0] ml-[285px] md:mt-0 mt-0.5 text-blue_gray-700 text-right text-sm ml-[500px] justify-end"
+                  className="md:ml-[0] ml-[285px] md:mt-0 mt-0.5 text-blue_gray-700 text-right text-sm ml-[500px] justify-end sm:mr-[30px]"
                   size="txtInterRegular14"
                 >
                   Non Copyrighted © 2022 Upload by hot food

@@ -3,7 +3,7 @@ import React from "react";
 import { Button, Img, Input, Line, Switch, Text } from "components";
 import HomeColumnhotfood from "components/HomeColumnhotfood";
 import OrderOnlineColumnrectangletwentyfour from "components/OrderOnlineColumnrectangletwentyfour";
-import OrderOnlineFooter3 from "components/OrderOnlineFooter3";
+import Footer from "components/Footer";
 
 const OrderOnlinePage = () => {
   return (
@@ -36,7 +36,7 @@ const OrderOnlinePage = () => {
             </div>
           </div>
           <Text
-            className="md:ml-[0] ml-[909px] mt-[92px] sm:text-4xl md:text-[38px] text-[40px] text-black-900 text-center justify-center"
+            className="md:ml-[0] ml-[909px] mt-[92px] sm:text-4xl md:text-[38px] text-[40px] text-black-900 text-center justify-center sm:ml-[30px]"
             size="txtRobotoRomanLight40"
           >
             Checkout
@@ -243,10 +243,10 @@ const OrderOnlinePage = () => {
             </div>
             <div className="bg-gray-50_01 h-[121px] mt-auto mx-auto rounded-[12px] w-full"></div>
           </div>
-          <Button className="bg-blue-A200 cursor-pointer font-semibold leading-[normal] min-w-[194px] md:ml-[0] ml-[623px] mt-[72px] py-3 rounded-[10px] text-center text-white-A700 text-xl justify-center ml-[800px]">
+          <Button className="bg-blue-A200 cursor-pointer font-semibold leading-[normal] min-w-[194px] md:ml-[0] ml-[623px] mt-[72px] py-3 rounded-[10px] text-center text-white-A700 text-xl justify-center ml-[800px] sm:ml-[90px]">
             Place Order
           </Button>
-          <OrderOnlineFooter3 className="bg-white-A700 flex flex-col items-start justify-end mt-[60px] p-[19px] md:px-5 w-[96%] md:w-full" />
+          <Footer className="bg-white-A700 flex flex-col items-start justify-end mt-[60px] p-[19px] md:px-5 w-[96%] md:w-full" />
         </div>
       </div>
     </>

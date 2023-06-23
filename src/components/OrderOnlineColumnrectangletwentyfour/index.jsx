@@ -6,7 +6,7 @@ const OrderOnlineColumnrectangletwentyfour = (props) => {
   return (
     <>
       <div className={props.className}>
-        <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start w-full">
+        <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start w-full sm:m-[30px]">
           <Img
             className="md:flex-1 h-[115px] sm:h-auto object-cover rounded-[9px] w-[14%] md:w-full"
             src="images/img_rectangle24.png"

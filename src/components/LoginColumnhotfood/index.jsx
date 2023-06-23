@@ -10,9 +10,9 @@ const LoginColumnhotfood = (props) => {
   return (
     <>
       <div className={props.className}>
-        <div className="bg-white-A700 flex flex-row md:gap-10 gap-[471px] items-center justify-center p-[15px] w-full">
+        <div className="bg-white-A700 flex flex-row md:gap-10 gap-[471px] items-center justify-center p-[15px] w-full sm:ml-[50px]">
 
-          
+        <FiMenu className="hidden lg:hidden block h-6 w-6 cursor-pointer md:block" onClick={() => setOpen(!open)} />
 
           <Text
             className="sm:text-2xl md:text-[26px] text-[28px] text-black-900"
@@ -21,18 +21,18 @@ const LoginColumnhotfood = (props) => {
             {props?.hotfoodtext}Hot Food
           </Text>
           <a href="/login">
-          <Button className="border border-black-900 border-solid cursor-pointer font-light font-roboto leading-[normal] min-w-[140px] min- mr-[53px] my-[10px] py-[5px] text-black-900 text-center text-xl"> Login
+          <Button className="border border-black-900 border-solid cursor-pointer font-light font-roboto leading-[normal] min-w-[140px] min- mr-[53px] my-[10px] py-[5px] text-black-900 text-center text-xl sm:ml-[20px]"> Login
             {props?.loginbutton}
           </Button></a>
         </div>
-        <div className="bg-gray-100 flex flex-col items-end justify-center p-2 w-full mr-[px] xl:mx-w-7xl xl:mx-auto mx-w-full px-[1%]">
-        <FiMenu className="lg:hidden block h-6 w-6 cursor-pointer" onClick={() => setOpen(!open)}/>
-  <div className="flex md:flex-col flex-row md:gap-5 items-start justify-center mr-[60px] mt-2 w-[63%] md:w-full mr-[300px] ">
+    
+
+<div className="bg-gray-100 flex flex-col items-end justify-center p-2 w-full ml-[px] xl:max-w-7xl xl:max-auto max-w-full px-[1%]">
   
-  <nav className={`${open ? "block" : "hidden"} lg:flex lg:items-center lg:w-auto`} >
-    <ul className="flex gap-10">
+  <nav className="lg:flex lg:items-center lg:w-auto block">
+    <ul className={`flex gap-5 md:flex-row md:mr-[450px] sm:flex-col sm:mr-[200px] ${open ? "block" : "hidden"}`}>
       <li>
-        <a href="/" >
+        <a href="/">
           <Text className="mb-[9px] md:ml-[0] ml-[49px] text-black-900 text-sm" size="txtRobotoRomanLight14">
             {props?.hometext}
           </Text>
@@ -74,11 +74,10 @@ const LoginColumnhotfood = (props) => {
         </a>
       </li>
     </ul>
-    </nav>
-  </div>
+  </nav>
 </div>
-
-      </div>
+</div>
+      
     </>
   );
 };

@@ -35,7 +35,7 @@ const LoginPage = () => {
               src="images/img_rectangle28.png"
               alt="rectangleTwentyNine"
             />
-            <div className="absolute flex flex-col md:h-auto h-max inset-y-[0] items-center justify-start my-auto right-[14%] w-auto mt-[300px]">
+            <div className="absolute flex flex-col md:h-auto h-max inset-y-[0] items-center justify-start my-auto right-[14%] w-auto mt-[300px] sm:ml-[30px]">
               <div className="flex flex-col items-start justify-start w-full">
                 <div className="flex flex-col h-[53px] md:h-auto items-start justify-start w-auto">
                   <Text
@@ -117,7 +117,7 @@ const LoginPage = () => {
                     </div>
                   </Button>
                 </div>
-                <div className="flex flex-col items-center justify-center md:ml-[0] ml-[93px] mt-[23px]">
+                <div className="flex flex-col items-center justify-center md:ml-[0] ml-[93px] mt-[23px] sm:ml-[40px]">
                   <Text
                     className="text-black-900 text-sm"
                     size="txtPoppinsMedium14"

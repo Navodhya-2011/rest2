@@ -21,7 +21,7 @@ const Home1Page = () => {
             />
             <div className="absolute bottom-[4%] flex flex-row items-start justify-center right-[3%] w-[17%]">
               <Line className="bg-blue-A200 h-[41px] mb-1.5 w-1" />
-              <div className="bg-black-900_b2 h-[47px] sm:pr-5 pr-[39px] relative w-[99%]">
+              <div className="bg-black-900_b2 h-[47px] sm:pr-5 pr-[39px] relative w-[99%] ">
                 <a href="/reservation">
                 <Text
                   className="absolute h-max inset-[0] justify-center m-auto text-white-A700 text-xl tracking-[1.70px] w-max"

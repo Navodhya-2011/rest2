@@ -6,7 +6,7 @@ const OrderOnlineFooter3 = (props) => {
   return (
     <>
       <footer className={props.className}>
-        <div className="flex flex-col items-center justify-center mb-[19px] mt-[41px] mx-[83px] w-[89%]">
+        <div className="flex flex-col items-center justify-center mb-[19px] mt-[41px] mx-[83px] w-[89%] sm:mr-[30px]">
           <div className="flex flex-col items-center justify-center w-full">
             <div className="h-[52px] relative w-[16%]">
               <Img
