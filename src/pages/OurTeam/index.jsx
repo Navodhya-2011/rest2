@@ -36,7 +36,7 @@ const OurTeamPage = () => {
           </div>
           <div className="flex md:flex-col flex-row md:gap-5 items-center justify-evenly mt-[59px] w-full">
             <Img
-              className="md:flex-1 h-[402px] sm:h-auto object-cover w-1/2 md:w-full"
+              className="md:flex-1 h-[902px] sm:h-auto object-cover w-1/2 md:w-full"
               src="images/img_rectangle13.png"
               alt="rectangleThirteen"
             />
@@ -93,14 +93,14 @@ const OurTeamPage = () => {
               </Text>
             </div>
             <Img
-              className="md:flex-1 h-[402px] sm:h-auto object-cover w-1/2 md:w-full"
+              className="md:flex-1 h-[902px] sm:h-auto object-cover w-1/2 md:w-full"
               src="images/img_rectangle16.png"
               alt="rectangleSixteen"
             />
           </div>
           <div className="flex md:flex-col flex-row md:gap-5 items-center justify-evenly w-full">
             <Img
-              className="md:flex-1 h-[402px] sm:h-auto object-cover w-1/2 md:w-full"
+              className="md:flex-1 h-[902px] sm:h-auto object-cover w-1/2 md:w-full"
               src="images/img_rectangle17.png"
               alt="rectangleSeventeen"
             />
