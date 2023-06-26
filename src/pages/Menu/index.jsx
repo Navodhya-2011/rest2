@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Button, Img, Input, Line, Text } from "components";
 import Footer from "components/Footer";
 import HomeColumnhotfood from "components/HomeColumnhotfood";
@@ -13,6 +12,7 @@ const MenuPage = () => {
           grouponetext="Login"
         />
         <div className="h-[231px] md:px-5 relative w-full">
+          {/* Image and text */}
           <Img
             className="h-[231px] m-auto object-cover w-full"
             src="images/img_rectangle2_231x1440.png"
@@ -42,110 +42,126 @@ const MenuPage = () => {
               Categories
             </Text>
             <div className="flex flex-col gap-[18px] items-start justify-start w-full">
-              <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
-                <Img
-                  className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                  src="images/img_rectangle19.png"
-                  alt="rectangleNineteen"
-                />
-                <Img
-                  className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                  src="images/img_rectangle20.png"
-                  alt="rectangleTwenty"
-                />
-                <Img
-                  className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                  src="images/img_rectangle21.png"
-                  alt="rectangleTwentyOne"
-                />
-                <Img
-                  className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                  src="images/img_rectangle22.png"
-                  alt="rectangleTwentyTwo"
-                />
-              </div>
-              <div className="md:gap-10 gap-[216px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-[84%] md:w-full">
-                <Text
-                  className="text-base text-black-900 text-center w-full"
-                  size="txtRobotoRomanLight16Black900"
-                >
-                  Name Here
-                </Text>
-                <Text
-                  className="text-base text-black-900 text-center w-full"
-                  size="txtRobotoRomanLight16Black900"
-                >
-                  Name Here
-                </Text>
-                <Text
-                  className="text-base text-black-900 text-center w-full"
-                  size="txtRobotoRomanLight16Black900"
-                >
-                  Name Here
-                </Text>
-                <Text
-                  className="text-base text-black-900 text-center w-full"
-                  size="txtRobotoRomanLight16Black900"
-                >
-                  Name Here
-                </Text>
+              <div className="md:gap-10 gap-[16px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
+                {/* Image and text */}
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle19.png"
+                    alt="rectangleNineteen"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle20.png"
+                    alt="rectangleTwenty"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle21.png"
+                    alt="rectangleTwentyOne"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle22.png"
+                    alt="rectangleTwentyTwo"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex flex-col items-center justify-start max-w-[1164px] mt-[31px] mx-auto md:px-5 w-full">
-          <div className="flex flex-col gap-[18px] items-start justify-start w-full">
-            <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
-              <Img
-                className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                src="images/img_rectangle19.png"
-                alt="rectangleNineteen_One"
-              />
-              <Img
-                className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                src="images/img_rectangle20.png"
-                alt="rectangleTwenty_One"
-              />
-              <Img
-                className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                src="images/img_rectangle21.png"
-                alt="rectangleTwentyOne_One"
-              />
-              <Img
-                className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                src="images/img_rectangle22.png"
-                alt="rectangleTwentyTwo_One"
-              />
+        
+
+        <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+              <div className="md:gap-10 gap-[16px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
+                {/* Image and text */}
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle19.png"
+                    alt="rectangleNineteen"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle20.png"
+                    alt="rectangleTwenty"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle21.png"
+                    alt="rectangleTwentyOne"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle22.png"
+                    alt="rectangleTwentyTwo"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+              </div>
             </div>
-            <div className="md:gap-10 gap-[216px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-[84%] md:w-full">
-              <Text
-                className="text-base text-black-900 text-center w-full"
-                size="txtRobotoRomanLight16Black900"
-              >
-                Name Here
-              </Text>
-              <Text
-                className="text-base text-black-900 text-center w-full"
-                size="txtRobotoRomanLight16Black900"
-              >
-                Name Here
-              </Text>
-              <Text
-                className="text-base text-black-900 text-center w-full"
-                size="txtRobotoRomanLight16Black900"
-              >
-                Name Here
-              </Text>
-              <Text
-                className="text-base text-black-900 text-center w-full"
-                size="txtRobotoRomanLight16Black900"
-              >
-                Name Here
-              </Text>
             </div>
-          </div>
-        </div>
-        <div className="flex flex-col items-center justify-start max-w-[1164px] mt-[85px] mx-auto md:px-5 w-full">
+        
+        
+            <div className="flex flex-col items-center justify-start max-w-[1164px] mt-20 mx-auto md:px-5 w-full">
           <div className="flex flex-col gap-7 items-center justify-start w-full">
             <Text
               className="text-base text-black-900 text-center"
@@ -154,111 +170,125 @@ const MenuPage = () => {
               Categories
             </Text>
             <div className="flex flex-col gap-[18px] items-start justify-start w-full">
-              <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
-                <Img
-                  className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                  src="images/img_rectangle19.png"
-                  alt="rectangleNineteen_Two"
-                />
-                <Img
-                  className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                  src="images/img_rectangle20.png"
-                  alt="rectangleTwenty_Two"
-                />
-                <Img
-                  className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                  src="images/img_rectangle21.png"
-                  alt="rectangleTwentyOne_Two"
-                />
-                <Img
-                  className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                  src="images/img_rectangle22.png"
-                  alt="rectangleTwentyTwo_Two"
-                />
-              </div>
-              <div className="md:gap-10 gap-[216px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-[84%] md:w-full">
-                <Text
-                  className="text-base text-black-900 text-center w-full"
-                  size="txtRobotoRomanLight16Black900"
-                >
-                  Name Here
-                </Text>
-                <Text
-                  className="text-base text-black-900 text-center w-full"
-                  size="txtRobotoRomanLight16Black900"
-                >
-                  Name Here
-                </Text>
-                <Text
-                  className="text-base text-black-900 text-center w-full"
-                  size="txtRobotoRomanLight16Black900"
-                >
-                  Name Here
-                </Text>
-                <Text
-                  className="text-base text-black-900 text-center w-full"
-                  size="txtRobotoRomanLight16Black900"
-                >
-                  Name Here
-                </Text>
+              <div className="md:gap-10 gap-[16px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
+                {/* Image and text */}
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle19.png"
+                    alt="rectangleNineteen"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle20.png"
+                    alt="rectangleTwenty"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle21.png"
+                    alt="rectangleTwentyOne"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle22.png"
+                    alt="rectangleTwentyTwo"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div className="flex flex-col items-center justify-start max-w-[1164px] mt-[31px] mx-auto md:px-5 w-full">
-          <div className="flex flex-col gap-[18px] items-start justify-start w-full">
-            <div className="gap-5 grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
-              <Img
-                className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                src="images/img_rectangle19.png"
-                alt="rectangleNineteen_Three"
-              />
-              <Img
-                className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                src="images/img_rectangle20.png"
-                alt="rectangleTwenty_Three"
-              />
-              <Img
-                className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                src="images/img_rectangle21.png"
-                alt="rectangleTwentyOne_Three"
-              />
-              <Img
-                className="flex-1 h-[394px] md:h-auto object-cover w-full"
-                src="images/img_rectangle22.png"
-                alt="rectangleTwentyTwo_Three"
-              />
+        
+
+        <div className="flex flex-col gap-[18px] items-start justify-start w-full">
+              <div className="md:gap-10 gap-[16px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-full">
+                {/* Image and text */}
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle19.png"
+                    alt="rectangleNineteen"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle20.png"
+                    alt="rectangleTwenty"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle21.png"
+                    alt="rectangleTwentyOne"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+                <div className="flex flex-col items-center justify-center">
+                  <Img
+                    className="flex-1 h-[394px] md:h-auto object-cover w-full"
+                    src="images/img_rectangle22.png"
+                    alt="rectangleTwentyTwo"
+                  />
+                  <Text
+                    className="text-base text-black-900 text-center w-full"
+                    size="txtRobotoRomanLight16Black900"
+                  >
+                    Name Here
+                  </Text>
+                </div>
+              </div>
             </div>
-            <div className="md:gap-10 gap-[216px] grid sm:grid-cols-1 md:grid-cols-2 grid-cols-4 items-center justify-between w-[84%] md:w-full">
-              <Text
-                className="text-base text-black-900 text-center w-full"
-                size="txtRobotoRomanLight16Black900"
-              >
-                Name Here
-              </Text>
-              <Text
-                className="text-base text-black-900 text-center w-full"
-                size="txtRobotoRomanLight16Black900"
-              >
-                Name Here
-              </Text>
-              <Text
-                className="text-base text-black-900 text-center w-full"
-                size="txtRobotoRomanLight16Black900"
-              >
-                Name Here
-              </Text>
-              <Text
-                className="text-base text-black-900 text-center w-full"
-                size="txtRobotoRomanLight16Black900"
-              >
-                Name Here
-              </Text>
             </div>
-          </div>
-        </div>
-        <Footer className="bg-white-A700 flex items-center justify-center mt-[115px] md:px-5 w-full" />
       </div>
+      <Footer />
     </>
   );
 };

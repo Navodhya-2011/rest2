@@ -90,7 +90,9 @@ const SignupPage = () => {
                     href="javascript:"
                     className="absolute h-max inset-[0] justify-center m-auto text-[13px] text-white-A700 w-max"
                   >
-                    <button><Text size="txtPoppinsBold13">Signup</Text></button>
+                    <button className="flex items-center justify-center">
+                      <Text size="txtPoppinsBold13" className="md:mt-[10px] sm:mb-[20px]">Signup</Text>
+                    </button>
                   </a>
                 </div>
                 <div className="flex sm:flex-col flex-row gap-[23px] items-center justify-start mt-[23px] w-auto sm:w-full">
