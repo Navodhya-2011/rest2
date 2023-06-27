@@ -44,11 +44,11 @@ const SignupPage = () => {
                     className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 w-auto"
                     size="txtPoppinsMedium32"
                   >
-                    Welcome back!
+                    Register!
                   </Text>
                 </div>
                 <Text
-                  className="mt-0.5 text-base text-black-900"
+                  className="mt-2 text-base text-black-900"
                   size="txtPoppinsMedium16"
                 >
                   Enter your Credentials to access your account
@@ -91,7 +91,7 @@ const SignupPage = () => {
                     className="absolute h-max inset-[0] justify-center m-auto text-[13px] text-white-A700 w-max"
                   >
                     <button className="flex items-center justify-center">
-                      <Text size="txtPoppinsBold13" className="md:mt-[10px] sm:mb-[20px]">Signup</Text>
+                      <Text size="txtPoppinsBold13" className="md:mt-[10px] sm:mb-[30px]">Signup</Text>
                     </button>
                   </a>
                 </div>
