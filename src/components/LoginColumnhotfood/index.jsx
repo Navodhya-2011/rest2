@@ -13,13 +13,13 @@ const LoginColumnhotfood = (props) => {
         <div className="bg-white-A700 flex flex-row md:gap-10 gap-[471px] items-center justify-center p-[15px] w-full  md:ml-[800px] sm:mr-[135px] sm:ml-[200px]">
 
         <FiMenu className="hidden lg:hidden block h-6 w-6 cursor-pointer md:block" onClick={() => setOpen(!open)} />
-
+          <a href="/">
           <Text
             className="sm:text-2xl md:text-[26px] text-[28px] text-black-900 "
             size="txtRobotoRomanLight28"
           >
             {props?.hotfoodtext} Hot Food
-          </Text>
+          </Text></a>
           <a href="/login">
           <Button className="border border-black-900 border-solid cursor-pointer font-light font-roboto leading-[normal] min-w-[140px] min- mr-[53px] my-[10px] py-[5px] text-black-900 text-center text-xl sm:ml-[20px]"> Login
             {props?.loginbutton}
